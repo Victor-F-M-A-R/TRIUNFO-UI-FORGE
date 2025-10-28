@@ -1,0 +1,120 @@
+   ▲ Next.js 15.5.5
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 12.3s
+   Linting and checking validity of types ...
+
+
+Failed to compile.
+
+./app/api/generate/assist/route.ts
+8:8  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+69:15  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./app/api/generate/route.ts
+9:8  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+22:11  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+132:12  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+173:50  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+188:12  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+190:17  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+204:38  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+212:17  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+337:15  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./app/docs/page.tsx
+6:9  Error: Do not use an `<a>` element to navigate to `/`. Use `<Link />` from `next/link` instead. See: https://nextjs.org/docs/messages/no-html-link-for-pages  @next/next/no-html-link-for-pages
+37:58  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+37:78  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+
+./app/page.tsx
+7:3  Warning: 'ChangeEvent' is defined but never used.  @typescript-eslint/no-unused-vars
+8:3  Warning: 'DragEvent' is defined but never used.  @typescript-eslint/no-unused-vars
+10:10  Warning: 'z' is defined but never used.  @typescript-eslint/no-unused-vars
+14:10  Warning: 'QAPanel' is defined but never used.  @typescript-eslint/no-unused-vars
+55:12  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+57:8  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+232:10  Warning: 'raw' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+241:10  Warning: 'imageDataUrl' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+242:10  Warning: 'validationErrors' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+242:28  Warning: 'setValidationErrors' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+319:19  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+348:17  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+402:18  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+448:18  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+484:18  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./components/ChatPanel.tsx
+58:17  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+108:35  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+108:73  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+109:13  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+109:63  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+109:66  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+110:35  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+
+./components/dsl/Renderer.tsx
+57:9  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+91:44  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./components/qa/MarkdownExport.tsx
+4:22  Warning: 'ContrastResult' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./components/StatusPill.tsx
+6:10  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+125:13  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+126:48  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+155:36  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+178:30  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+188:33  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+191:14  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+200:13  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+201:48  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+212:15  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+322:45  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+323:63  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+326:25  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+328:63  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+331:25  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+335:25  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+339:25  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+342:49  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+359:37  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+371:12  Warning: 'toggleHybrid' is defined but never used.  @typescript-eslint/no-unused-vars
+399:6  Warning: React Hook useEffect has a missing dependency: 'detect'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+457:27  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./components/Topbar.tsx
+111:11  Error: Do not use an `<a>` element to navigate to `/`. Use `<Link />` from `next/link` instead. See: https://nextjs.org/docs/messages/no-html-link-for-pages  @next/next/no-html-link-for-pages
+116:11  Error: Do not use an `<a>` element to navigate to `/`. Use `<Link />` from `next/link` instead. See: https://nextjs.org/docs/messages/no-html-link-for-pages  @next/next/no-html-link-for-pages
+
+./components/UploadZone.tsx
+87:19  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+195:15  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+223:61  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./lib/ai/shim.ts
+11:9  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+15:14  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+20:10  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+30:29  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+66:42  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+87:25  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+134:15  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./lib/ai/uiDsl/schema.ts
+14:36  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./lib/db.ts
+8:9  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./lib/dsl.ts
+108:53  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+204:29  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+206:20  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./lib/onDevice.ts
+50:27  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules

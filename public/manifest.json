@@ -1,0 +1,15 @@
+{
+  "name": "Triunfo UI Forge",
+  "short_name": "UI Forge",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0F1A",
+  "theme_color": "#0EA5E9",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48 72x72 96x96 144x144 192x192 512x512",
+      "type": "image/x-icon"
+    }
+  ]
+}
